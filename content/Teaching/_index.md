@@ -1,19 +1,17 @@
 ---
-title = "Teaching"
+title: Teaching
 
 # View.
 #   1 = List
 #   2 = Compact
 #   3 = Card
-#   4 = Citation
-view = 4
+view: 2
 
-# Optional featured image (relative to `static/img/` folder).
-[header]
-image = ""
-caption = ""
+# Optional header image (relative to `static/media/` folder).
+header:
+  caption: ""
+  image: ""
 ---
-
 
 For academic related questions, you can reach me at:
 ```
