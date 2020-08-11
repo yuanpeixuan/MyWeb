@@ -20,7 +20,7 @@ organizations:
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include empirical asseting pricing, derivatives pricing and machine learning.
 
-interests:
+research interests:
 - Empirical Asset Pricing
 - Derivatives Pricing
 - Machine Learning
