@@ -16,7 +16,9 @@ role: Doctoral Candidate in Finance
 organizations:
 - name: Rutgers Business School
   url: "https://www.business.rutgers.edu/"
-
+- name: Rutgers University
+  url: "https://www.rutgers.edu/"
+  
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include empirical asseting pricing, derivatives pricing and machine learning.
 
