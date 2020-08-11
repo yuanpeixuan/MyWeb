@@ -30,7 +30,7 @@ featured: true
 # links:
 # - name: ""
 # url: ""
-#url_pdf: 
+url_pdf: "https://www.biorxiv.org/content/10.1101/278762v2.abstract"
 #url_code: ''
 #url_dataset: ''
 #url_poster: ''
