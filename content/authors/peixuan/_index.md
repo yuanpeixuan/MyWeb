@@ -1,10 +1,10 @@
 ---
 # Display name
-title: Nelson Bighetti
+title: Peixuan Yuan
 
 # Username (this should match the folder name)
 authors:
-- admin
+- peixuan
 
 # Is this the primary user of the site?
 superuser: true
