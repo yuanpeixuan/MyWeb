@@ -56,4 +56,4 @@ user_groups:
 - Visitors
 ---
 
-Welcome to my website. I am a PhD candidate in Finance at Rutgers Business School, Rutgers University. I will be available for job interviews during the 2020-2021 academic year.
+Welcome to my website. I am a PhD candidate in Finance at Rutgers Business School, Rutgers University. I am on the job market and will be available for interviews during the 2020-2021 academic year.
