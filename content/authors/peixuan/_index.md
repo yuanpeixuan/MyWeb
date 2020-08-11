@@ -1,4 +1,4 @@
-+++
+---
 # Display name
 name = "Peixuan Yuan"
 
@@ -82,6 +82,6 @@ interests = [
 #   icon_pack = "ai"
 #   link = "files/cv.pdf"
 
-+++
+---
 
 I am a Senior Researcher at [Microsoft Research](https://www.microsoft.com/research) and an Affiliate Assistant Professor at the [University of Washington](https://www.washington.edu). My work focuses on explainable artificial intelligence and its application to problems in medicine and healthcare. This has led to the development of broadly applicable [methods and tools](https://github.com/slundberg/shap) for interpreting complex machine learning models that are now used in banking, logistics, manufacturing, cloud services, economics, sports, and other areas. I did my Ph.D. studies at the [Paul G. Allen School of Computer Science & Engineering](https://cs.washington.edu) of the [University of Washington] working with [Su-In Lee](https://suinlee.cs.washington.edu).
