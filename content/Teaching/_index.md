@@ -13,7 +13,8 @@ header:
   image: ""
 ---
 
-##**Lecturer of Professional Practice**, *Rutgers Business School*
-'''
+**Lecturer of Professional Practice**, *Rutgers Business School*
+
+```
 Research Method in Finance (Master Level, 2 Sections), Fall 2020
-'''
+```
