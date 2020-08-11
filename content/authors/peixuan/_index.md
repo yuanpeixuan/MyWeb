@@ -9,24 +9,24 @@ authors = ["peixuan"]
 superuser = true
 
 # Role/position
-role = "Senior Researcher"
+role = "Doctoral Candidate in Finance"
 
 # Organizations/Affiliations
 #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
-organizations = [ { name = "Microsoft Research", url = "" } ]
+organizations = [ { name = "Rutgers Business School", url = "https://www.business.rutgers.edu/" } ]
 
 # Short bio (displayed in user profile at end of posts)
-bio = "My research interests include explainable AI, and machine learning, particularly for medical applications."
+bio = ""
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email = "scottmlundberg@gmail.com"
+email = "peixuan.yuan@rutgers.edu"
 
 # List (academic) interests or hobbies
 interests = [
-  "Explainable AI",
+  "Empirical Asset Pricing",
+  "Derivatives Pricing",
   "Machine Learning",
-  "Healthcare",
-  "Genomics"
+  "Data Science"
 ]
 
 # Organizational groups that you belong to (for People widget)
@@ -35,44 +35,44 @@ interests = [
 
 # List qualifications (such as academic degrees)
 [[education.courses]]
-  course = "PhD in Computer Science"
-  institution = "University of Washington"
-  year = 2019
+  course = "Ph.D. in Finance"
+  institution = "Rutgers University"
+  year = 2021 (Expected)
 
 [[education.courses]]
-  course = "MS in Computer Science"
-  institution = "Colorado State University"
-  year = 2008
+  course = "MS in Quantitative Finance"
+  institution = "Rutgers University"
+  year = 2016
 
 [[education.courses]]
-  course = "BS in Computer Science"
-  institution = "Colorado State University"
-  year = 2005
+  course = "BS in Remote Sensing and Information Engineering"
+  institution = "Wuhan University"
+  year = 2015
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
 
-[[social]]
-  icon = "github"
-  icon_pack = "fab"
-  link = "https://github.com/slundberg"
+#[[social]]
+#  icon = "github"
+#  icon_pack = "fab"
+#  link = "https://github.com/slundberg"
 
-[[social]]
-  icon = "google-scholar"
-  icon_pack = "ai"
-  link = "https://scholar.google.co.uk/citations?user=ESRugcEAAAAJ"
+#[[social]]
+#  icon = "google-scholar"
+#  icon_pack = "ai"
+#  link = "https://scholar.google.co.uk/citations?user=ESRugcEAAAAJ"
 
-[[social]]
-  icon = "linkedin"
-  icon_pack = "fab"
-  link = "https://www.linkedin.com/in/scott-lundberg-62ba928"
+#[[social]]
+#  icon = "linkedin"
+#  icon_pack = "fab"
+#  link = "https://www.linkedin.com/in/scott-lundberg-62ba928"
 
-[[social]]
-  icon = "medium"
-  icon_pack = "fab"
-  link = "https://medium.com/@scottmlundberg"
+#[[social]]
+#  icon = "medium"
+#  icon_pack = "fab"
+#  link = "https://medium.com/@scottmlundberg"
 
 
 # Link to a PDF of your resume/CV from the About widget.
