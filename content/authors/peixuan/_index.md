@@ -47,10 +47,10 @@ education:
 social:
 - icon: envelope
   icon_pack: fas
-  link: mailto:peixuan.yuan@rutgers.edu
+  link: "mailto:peixuan.yuan@rutgers.edu"
 - icon: linkedin
   icon_pack: fab
-  link: www.linkedin.com/in/peixuan-yuan
+  link: https://www.linkedin.com/in/peixuan-yuan/
   
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
