@@ -18,7 +18,7 @@ publication_types: ["2"]
 publication: ""
 publication_short: "*Job Market Paper*"
 
-abstract: 
+abstract: I analyze the specifications of pricing models for the joint valuation of S&P 500 and VIX options. I find that the existing models cannot adequately represent the two options markets and introduce a new factor that controls the higher-order moments of the risk-neutral return distribution. The proposed model significantly outperforms all other alternatives, and, in particular, it improves on the benchmark two-variance-factor model with co-jumps by 23.66% in-sample and 31.64% out-of-sample. The performance analysis shows that the better fit results from improvements in the modeling of both S&P 500 and VIX options, highlighting the model features that are critical in reconciling the two markets.
 
 # Summary. An optional shortened abstract.
 summary: 
