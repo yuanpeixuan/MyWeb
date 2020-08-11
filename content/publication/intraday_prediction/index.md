@@ -1,6 +1,7 @@
 ---
 title: "Intraday Stock Return Predictability and Machine Learning"
 authors:
+- Cheng Gao
 - Peixuan Yuan
 date: "2020-04-01T00:00:00Z"
 doi: ""
