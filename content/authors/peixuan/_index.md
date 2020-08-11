@@ -47,7 +47,7 @@ education:
 social:
 - icon: envelope
   icon_pack: fas
-  link: '#contact'  # For a direct email link, use "mailto:peixuan.yuan@rutgers.edu".
+  link: mailto:peixuan.yuan@rutgers.edu
 - icon: linkedin
   icon_pack: fab
   link: www.linkedin.com/in/peixuan-yuan
