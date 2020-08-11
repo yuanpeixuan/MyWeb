@@ -13,13 +13,7 @@ header:
   image: ""
 ---
 
-For academic related questions, you can reach me at:
-```
-slund1@cs.washington.edu
-```
-
-For personal or consulting related messages, you can reach me at:
-
-```
-scott@scottlundberg.com
-```
+##**Lecturer of Professional Practice**, *Rutgers Business School*
+'''
+Research Method in Finance (Master Level, 2 Sections), Fall 2020
+'''
