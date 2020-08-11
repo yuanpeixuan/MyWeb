@@ -42,7 +42,7 @@ url_pdf: "/files/The_Joint_Valuation_of_S_P_500_and_VIX_Options.pdf"
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/jdD8gXaTZsc)'
+  caption: 'Factors Importance'
   focal_point: ""
   preview_only: false
 
