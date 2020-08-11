@@ -1,5 +1,5 @@
 ---
-title = "Contact"
+title = "Teaching"
 
 # View.
 #   1 = List
