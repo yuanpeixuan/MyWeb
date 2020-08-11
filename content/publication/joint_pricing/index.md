@@ -1,79 +1,62 @@
-+++
-title = "Specification Analysis: A New Model for the Joint Valuation of S&P 500 and VIX Options"
-date = 2020-09-01T00:00:00
+---
+title: "Specification Analysis: A New Model for the Joint Valuation of S&P 500 and VIX Options"
+authors:
+- Peixuan Yuan
+date: "2020-09-01T00:00:00Z"
+doi: ""
 
-# Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors = ["Peixuan Yuan"]
-
-
+# Schedule page publish date (NOT publication's date).
+publishDate: "2017-01-01T00:00:00Z"
 
 # Publication type.
-# Legend:
-# 0 = Uncategorized
-# 1 = Conference paper
-# 2 = Journal article
-# 3 = Manuscript
-# 4 = Report
-# 5 = Book
-# 6 = Book section
-publication_types = ["3"]
+# Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
+# 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
+# 7 = Thesis; 8 = Patent
+publication_types: ["3"]
 
-# Publication name and optional abbreviated version.
-publication = ""
-publication_short = "Job Market Paper"
+# Publication name and optional abbreviated publication name.
+publication: ""
+publication_short: "*Job Market Paper*"
 
-#link = "https://www.biorxiv.org/content/10.1101/278762v2.abstract"
-
-# Abstract.
-abstract = ""
+abstract: 
 
 # Summary. An optional shortened abstract.
-summary = ""
+summary: 
 
-# Digital Object Identifier (DOI)
-doi = ""
+tags:
+- Source Themes
+featured: true
 
-# Is this a featured publication? (true/false)
-featured = true
-
-# Tags (optional).
-#   Set `tags = []` for no tags, or use the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
-tags = []
-
-# Projects (optional).
-#   Associate this publication with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["deep-learning"]` references 
-#   `content/project/deep-learning/index.md`.
-#   Otherwise, set `projects = []`.
-projects = ["internal-project"]
-
-# Links (optional).
-#url_pdf = "https://www.google.com/url?q=https%3A%2F%2Fsites.google.com%2Fa%2Fcs.washington.edu%2Fsuinlee%2FCloudControl_Hiranuma_EtAl_FINAL.pdf%3Fattredirects%3D0%26d%3D1&sa=D&sntz=1&usg=AFQjCNEXxZID2Plyi46_pzJ_x-5eNAmBOQ"
-url_preprint = "https://www.biorxiv.org/content/10.1101/278762v2.abstract"
-url_code = "https://github.com/suinleelab/AIControl.jl"
-#url_dataset = "#"
-#url_project = ""
-#url_slides = "#"
-#url_video = "#"
-#url_poster = "#"
-#url_source = "#"
-
-# Custom links (optional).
-#   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
-#links = [{name = "Custom Link", url = "http://example.org"}]
-
-# Does this page contain LaTeX math? (true/false)
-#math = true
+# links:
+# - name: ""
+# url: ""
+#url_pdf: 
+#url_code: ''
+#url_dataset: ''
+#url_poster: ''
+#url_project: ''
+#url_slides: ''
+#url_source: ''
+#url_video: ''
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
-[image]
-  # Caption (optional)
-  caption = "Image credit: [**Unsplash**](https://unsplash.com/photos/pLCdAaMFLTE)"
+image:
+  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/jdD8gXaTZsc)'
+  focal_point: ""
+  preview_only: false
 
-  # Focal point (optional)
-  # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
-  focal_point = ""
-+++
+# Associated Projects (optional).
+#   Associate this publication with one or more of your projects.
+#   Simply enter your project's folder or file name without extension.
+#   E.g. `internal-project` references `content/project/internal-project/index.md`.
+#   Otherwise, set `projects: []`.
+projects: []
 
+# Slides (optional).
+#   Associate this publication with Markdown slides.
+#   Simply enter your slide deck's filename without extension.
+#   E.g. `slides: "example"` references `content/slides/example/index.md`.
+#   Otherwise, set `slides: ""`.
+slides: example
+---
