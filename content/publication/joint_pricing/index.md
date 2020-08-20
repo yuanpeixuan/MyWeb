@@ -30,7 +30,7 @@ featured: true
 # links:
 # - name: ""
 # url: ""
-url_pdf: "/files/The_Joint_Valuation_of_S_P_500_and_VIX_Options.pdf"
+url_pdf: "/files/Job_market_paper - Peixuan Yuan.pdf"
 #url_code: ''
 #url_dataset: ''
 #url_poster: ''
