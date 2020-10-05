@@ -20,18 +20,7 @@ publication_types: ["2"]
 publication: ""
 publication_short: "*Working Paper*"
 
-abstract: This paper uses machine learning-based as well as fundamental-driven, news-based
-approaches to uncover patterns of high-frequency return predictability for sector
-exchange-traded funds (ETFs). A LASSO predictor that aggregates high-frequency price
-movements of a broad universe of individual stocks predicts ETF returns out-of-sample.
-The news-driven return on ETF constituent firms positively predicts ETF returns, but
-the component of ETF returns orthogonal to the news return negatively predicts them.
-These different signals contain independent information, and have different strengths,
-with the LASSO predictor providing continuous flows of information most powerful
-during trading hours and the news return offering sporadic information particularly
-useful during market close. A composite signal combining all three signals with Gradient
-Boosted Regression Trees (GBRT) has very strong power to forecast ETF returns,
-especially during the Covid-19 pandemic.
+abstract: 
 
 # Summary. An optional shortened abstract.
 summary: 
