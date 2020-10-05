@@ -24,9 +24,9 @@ bio: My research interests include empirical asseting pricing, derivatives prici
 
 interests:
 - Empirical Asset Pricing
-- Derivatives Pricing
+- Derivatives Valuation
 - Machine Learning
-- Data Science
+- Big Data
 
 education:
   courses:
