@@ -14,10 +14,10 @@ role: Doctoral Candidate in Finance
 
 # Organizations/Affiliations
 organizations:
-- name: Rutgers Business School
-  url: "https://www.business.rutgers.edu/"
-- name: Rutgers University
-  url: "https://www.rutgers.edu/"
+- name: School of Finance
+  url: "http://sf.ruc.edu.cn/"
+- name: Renmin University of China
+  url: "https://www.ruc.edu.cn/"
   
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include empirical asseting pricing, derivatives pricing and machine learning.
@@ -32,7 +32,7 @@ education:
   courses:
   - course: Ph.D. in Finance
     institution: Rutgers University
-    year: 2021 (Expected)
+    year: 2021
   - course: MS in Quantitative Finance
     institution: Rutgers University
     year: 2016
@@ -68,4 +68,4 @@ user_groups:
 - Visitors
 ---
 
-Welcome to my website. I am a PhD candidate in Finance at Rutgers Business School, Rutgers University. My research agenda broadly falls within the field of asset pricing. My primary research focuses on derivatives pricing, market anomalies and machine learning. I am on the job market and will be available for interviews during the 2020-2021 academic year.
+I am currently an assistant professor of Finance at the School of Finance, Renmin University of Finance.
