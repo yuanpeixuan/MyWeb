@@ -10,7 +10,7 @@ authors:
 superuser: true
 
 # Role/position
-role: Doctoral Candidate in Finance
+role: Assistant Professor of Finance
 
 # Organizations/Affiliations
 organizations:
