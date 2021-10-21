@@ -68,4 +68,4 @@ user_groups:
 - Visitors
 ---
 
-I am currently an assistant professor of Finance at the School of Finance, Renmin University of Finance.
+I am currently an assistant professor of Finance at the School of Finance, Renmin University of China.
