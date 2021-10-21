@@ -25,7 +25,7 @@ summary:
 
 
 
-featured: true
+featured: false
 
 # links:
 # - name: ""
