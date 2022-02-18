@@ -3,7 +3,7 @@ title: "Market Right-Tail Risk Matters!"
 authors:
 - Yangru Wu
 - Peixuan Yuan
-date: "2020-07-01T00:00:00Z"
+date: "2021-07-01T00:00:00Z"
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
