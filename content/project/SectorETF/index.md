@@ -4,7 +4,7 @@ authors:
 - Hao Jiang
 - Sophia Zhengzi Li
 - Peixuan Yuan
-date: "2022-1-17T00:00:00Z"
+date: "2022-2-17T00:00:00Z"
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
@@ -20,7 +20,7 @@ publication_types: ["2"]
 publication: ""
 publication_short: "*Working Paper*"
 
-abstract: This paper shows a strong link between granular information contained in individual stock prices and sectoral movements. Using machine learning algorithms, we find that a predictor that aggregates the price movements of a broad cross-section of individual stocks predicts sector ETF returns out-of-sample. When we combine the structural information of economic links among firms with machine learning, the resulting information signals have even stronger return predictability. These results support the hypothesis of granular origins of aggregate shocks, and illustrate the advantages of structural machine learning.
+abstract: 
 
 # Summary. An optional shortened abstract.
 summary: 
