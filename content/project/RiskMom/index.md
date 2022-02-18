@@ -1,11 +1,8 @@
 +++
 # Project title.
 ---
-title: "Risk-based Momentum"
-authors:
-- Sophia Zhengzi Li
-- Peixuan Yuan
-- Guofu Zhou
+title = "Risk-based Momentum"
+
 # Date this page was created.
 date = 2022-02-18T00:00:00
 
