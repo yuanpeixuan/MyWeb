@@ -20,11 +20,10 @@ publication_types: ["2"]
 publication: ""
 publication_short: "*Working Paper*"
 
-abstract: We find that the risk component of stock returns exhibits strong intraday momentum, and this pattern holds for the risk from market close to 10:00, and every half-hour since then, and till market close at 16:00. Strikingly, the long-short tradable spread portfolio sorted by the risk component has a similar momentum pattern, the first of its kind intraday. Moreover, the risk-based momentum is stronger in the mornings than afternoons, remains positive, and lasts up to five days. In contrast to the standard stock momentum sorted by past return that fails intraday, We find factor momentum continues to hold, extending the recent monthly finding of Ehsani and Linnainmaa (2021) to high-frequency. Interestingly, the risk-based momentum shows that taking systematic risk is rewarded even intraday, and it explains largely the factor momentum, but not the reverse.
+abstract: 
 
 # Summary. An optional shortened abstract.
-summary: We find that the risk component of stock returns exhibits strong intraday momentum, and this pattern holds for the risk from market close to 10:00, and every half-hour since then, and till market close at 16:00. Strikingly, the long-short tradable spread portfolio sorted by the risk component has a similar momentum pattern, the first of its kind intraday. Moreover, the risk-based momentum is stronger in the mornings than afternoons, remains positive, and lasts up to five days. In contrast to the standard stock momentum sorted by past return that fails intraday, We find factor momentum continues to hold, extending the recent monthly finding of Ehsani and Linnainmaa (2021) to high-frequency. Interestingly, the risk-based momentum shows that taking systematic risk is rewarded even intraday, and it explains largely the factor momentum, but not the reverse.
-
+summary: 
 
 
 
