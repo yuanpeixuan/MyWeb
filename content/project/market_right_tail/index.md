@@ -7,7 +7,7 @@ date: "2021-07-01T00:00:00Z"
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2017-01-01T00:00:00Z"
+publishDate: "2021-07-01T00:00:00Z"
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
@@ -19,7 +19,7 @@ publication_types: ["2"]
 publication: ""
 publication_short: "*Submitted*"
 
-abstract: We propose a method to estimate relatively high frequent market left- and right-tail risks by constructing trading strategies with daily S&P 500 options. Our measures are forward-looking and show low correlations with other risk factors. We dissect pricing implications of tail risks for cross-sectional stock returns. Stocks more sensitive to left-tail (right-tail) risk exhibit lower (higher) returns. The right-tail risk premium is significant and partially absorbs the left-tail premium. Results also hold using equity portfolios and mutual funds as test assets. The widespread effect of right-tail risk on assets stands in contrast to previous findings that only negative jumps are priced.
+abstract: 
 
 # Summary. An optional shortened abstract.
 summary: 
