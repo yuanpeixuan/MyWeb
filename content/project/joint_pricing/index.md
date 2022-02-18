@@ -6,7 +6,7 @@ date: "2021-01-01T00:00:00Z"
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2017-01-01T00:00:00Z"
+publishDate: "2022-01-01T00:00:00Z"
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
@@ -18,7 +18,7 @@ publication_types: ["2"]
 publication: ""
 publication_short: "*Job Market Paper*"
 
-abstract: Analyzing the specifications of pricing models for the joint valuation of S&P 500 and VIX options, I find that the existing models cannot adequately represent the two options markets. I introduce a new factor that controls the higher-order moments of the risk-neutral return distribution. The model I propose significantly outperforms all other alternatives, and particularly improves on the benchmark two-variance-factor model with co-jumps by 23.66% in-sample and 31.64% out-of-sample. The performance analysis shows that the better fit results from improvements in the modeling of both S&P 500 and VIX options, highlighting the model features that are critical for reconciling the two markets.
+abstract: 
 
 # Summary. An optional shortened abstract.
 summary: 
