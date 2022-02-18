@@ -2,7 +2,7 @@
 title: "Time-Varying Skew in VIX Derivatives Pricing"
 authors:
 - Peixuan Yuan
-date: "2020-08-01T00:00:00Z"
+date: "2021-11-01T00:00:00Z"
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
