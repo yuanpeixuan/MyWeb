@@ -2,11 +2,11 @@
 title: "Gambling Preference in Loser Stocks"
 authors:
 - Peixuan Yuan
-date: "2020-06-01T00:00:00Z"
+date: "2021-06-01T00:00:00Z"
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2017-01-01T00:00:00Z"
+publishDate: "2021-06-01T00:00:00Z"
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
@@ -18,7 +18,7 @@ publication_types: ["2"]
 publication: ""
 publication_short: "*Working Paper*"
 
-abstract: We discover that investors' preferences for gambling mainly involve stocks that have performed poorly in the past three months, as lottery-like stocks with poor performance are much more likely to generate large payoffs than those with good performance (61.53% vs. 40.17%). Furthermore, lotto investors tend to believe that lottery-like stocks with poor performance may have a vigorous rebound shortly, while those with good performance may be less likely to produce a positive return given their high prices. Therefore, lottery-like stocks with poor performance have a highly effective lottery-like look, and thus they attract lotto investors. On the other hand, loser stocks without lottery-like features may continue to perform poorly. Overly optimistic (pessimistic) beliefs about stocks with (without) lottery-like features result in a pronounced lottery premium among loser stocks.
+abstract: 
 
 # Summary. An optional shortened abstract.
 summary: 
