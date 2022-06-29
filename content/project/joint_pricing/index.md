@@ -22,7 +22,7 @@ publication_short: "*R&R at Management Science*"
 abstract: 
 
 # Summary. An optional shortened abstract.
-summary: 
+summary: "*R&R at Management Science*"
 
 
 
