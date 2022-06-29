@@ -15,8 +15,8 @@ publishDate: "2022-01-01T00:00:00Z"
 publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
-publication: ""
-publication_short: "*Job Market Paper*"
+publication: "*R&R at Management Science*"
+publication_short: "*R&R at Management Science*"
 
 abstract: 
 
