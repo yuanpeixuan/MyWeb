@@ -1,9 +1,10 @@
 ---
-title: "Specification Analysis: A New Model for the Joint Valuation of S&P 500 and VIX Options"
+title: "A New Model for the Joint Valuation of S&P 500 and VIX Options: Specification Analysis"
+*R&R at Management Science*
 authors:
 - Peixuan Yuan
 date: "2022-06-01T00:00:00Z"
-doi: "*R&R at Management Science*"
+doi: ""
 
 # Schedule page publish date (NOT publication's date).
 publishDate: "2022-06-01T00:00:00Z"
