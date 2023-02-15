@@ -16,7 +16,7 @@ publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
 publication: ""
-publication_short: "*Forthcoming, **Management Science***"
+publication_short: "***Management Science***, 68(10), 7761-7791."
 
 abstract: This paper proposes a new reduced-form model for the pricing of VIX derivatives that includes an independent stochastic jump intensity factor and co-jumps in the level and variance of VIX, while allowing the mean of VIX variance to be time-varying. I fit the model to daily prices of futures and European options from April 2007 through December 2017. The empirical results indicate that the model significantly outperforms all other nested models and improves on benchmark by 21.6% in-sample and 31.2% out-of-sample. The model more accurately portrays the tail behavior of VIX risk-neutral distribution for both short and long maturities, as it successfully captures the time-varying skew found to be largely independent of the level of the VIX smile.
 
