@@ -19,7 +19,7 @@ publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
 publication: ""
-publication_short: "*Forthcoming, **Economics Letters***"
+publication_short: "***Economics Letters***, 216, 110598"
 
 abstract: 
 
