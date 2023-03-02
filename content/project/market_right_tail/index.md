@@ -1,5 +1,5 @@
 ---
-title: "Market Right-Tail Risk Matters!"
+title: "Pricing Implications of Option-Implied Tail Risk"
 authors:
 - Yangru Wu
 - Peixuan Yuan
