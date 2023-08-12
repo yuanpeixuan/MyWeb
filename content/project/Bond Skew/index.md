@@ -1,5 +1,5 @@
 ---
-title: "Corporate Bond Moments and Predictability of Equity Returns"
+title: "Can Asymmetric Information in Corporate Bonds Predict Equity Market Return?"
 authors:
 - Sophia Zhengzi Li
 - Peixuan Yuan
