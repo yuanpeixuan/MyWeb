@@ -1,5 +1,5 @@
 ---
-title: "Gambling Preference in Loser Stocks"
+title: "Gambling Preferences for Loser Stocks Everywhere"
 authors:
 - Peixuan Yuan
 date: "2021-06-01T00:00:00Z"
