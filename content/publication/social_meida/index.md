@@ -6,7 +6,7 @@ authors:
 - Weike Xu
 - Peixuan Yuan
 date: "2022-01-01T00:00:00Z"
-doi: ""
+doi: "https://doi.org/10.1016/j.econlet.2022.110598"
 
 # Schedule page publish date (NOT publication's date).
 publishDate: "2022-01-01T00:00:00Z"
