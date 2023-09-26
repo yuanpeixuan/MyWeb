@@ -29,7 +29,7 @@ featured: false
 
 # links:
 # - name: ""
-# url: 'https://pubsonline.informs.org/doi/abs/10.1287/mnsc.2021.4168'
+url: "https://pubsonline.informs.org/doi/abs/10.1287/mnsc.2021.4168"
 #url_pdf: "/files/Time_Varying_Skew_in_VIX_Derivatives_Pricing.pdf"
 #url_code: ''
 #url_dataset: ''
