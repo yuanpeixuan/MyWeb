@@ -33,7 +33,7 @@ featured: false
 # links:
 # - name: ""
 # url: ""
-url_pdf: "/files/"
+#url_pdf: "/files/"
 #url_code: ''
 #url_dataset: ''
 #url_poster: ''
