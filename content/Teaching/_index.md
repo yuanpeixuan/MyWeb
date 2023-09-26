@@ -13,11 +13,17 @@ header:
   image: ""
 ---
 
+**Instructor**, *Renmin University of China*
+
+- Investment (Undergraduate), *Fall 2022, 2023*
+- Introduction to Fintech (Master), *Fall 2022, 2023*
+- Advanced Derivatives (Ph.D.), *Spring 2022, 2023*
+
 
 **Lecturer of Professional Practice**, *Rutgers Business School*
 
-- Research Method in Finance (Master Level, 2 Sections), *Fall 2020, Spring 2021 (Scheduled)*
-- Financial Management for Finance Majors, *Spring 2021 (Scheduled)*
+- Research Method in Finance (Master), *Fall 2020, Spring 2021*
+- Financial Management for Finance Majors, *Spring 2021*
 
 
 **Course Instructor**, *Rutgers Business School*
