@@ -30,7 +30,7 @@ featured: false
 # links:
 # - name: ""
 # url: ""
-url_pdf: "/files/Time_Varying_Skew_in_VIX_Derivatives_Pricing.pdf"
+#url_pdf: "/files/Time_Varying_Skew_in_VIX_Derivatives_Pricing.pdf"
 #url_code: ''
 #url_dataset: ''
 #url_poster: ''
