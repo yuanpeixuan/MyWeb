@@ -1,5 +1,5 @@
 ---
-title: "Can Asymmetric Information in Corporate Bonds Predict Equity Market Return?"
+title: "Information Transmission from Corporate Bonds to the Aggregate Stock Market"
 authors:
 - Sophia Zhengzi Li
 - Peixuan Yuan
