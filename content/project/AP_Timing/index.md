@@ -25,7 +25,6 @@ abstract:
 # Summary. An optional shortened abstract.
 summary: Characteristics-based predictability of stock returns exhibits notable temporal variations and tends to cluster in certain periods referred to as "pockets." We propose a real-time approach to effectively time these variations in return predictability, emphasizing its importance in asset pricing. By applying this approach to a comprehensive set of firm characteristics, we discover periodic and distinct dynamics of return predictability for different types of characteristics, contradicting the notion of diminishing stock return predictability. Through dynamic combination of individual predictors based on their time-varying predictive power, our composite predictor achieves a value-weighted hedge return of 3.95% per month with a high t-statistic of 13.87. Additionally, our pricing model, which incorporates a timed factor, demonstrates superior effectiveness in both explaining and predicting market anomalies. It also provides a comprehensive explanation for factor momentum, which arises solely from the past performance of factor returns.
 
-
 featured = false
 
 # links:
