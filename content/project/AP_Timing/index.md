@@ -7,8 +7,6 @@ authors:
 date: "2023-11-18T00:00:00Z"
 doi: ""
 
-featured = false
-
 # Schedule page publish date (NOT publication's date).
 publishDate: "2023-11-18T00:00:00Z"
 
