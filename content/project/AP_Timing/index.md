@@ -1,5 +1,5 @@
 ---
-title: "Asset Pricing Timing"
+title: "Pockets of Factor Pricing"
 authors:
 - Sophia Zhengzi Li
 - Peixuan Yuan
