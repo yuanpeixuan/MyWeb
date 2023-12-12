@@ -31,7 +31,7 @@ featured: true
 # links:
 # - name: ""
 # url: ""
-url_pdf: ""
+url_pdf: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4661444"
 #url_code: ''
 #url_dataset: ''
 #url_poster: ''
