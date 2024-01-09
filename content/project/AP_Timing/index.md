@@ -4,7 +4,7 @@ authors:
 - Sophia Zhengzi Li
 - Peixuan Yuan
 - Guofu Zhou
-date: "2023-11-18T00:00:00Z"
+date: "2022-11-18T00:00:00Z"
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
@@ -23,8 +23,7 @@ publication_short: "*Working Paper*"
 abstract: 
 
 # Summary. An optional shortened abstract.
-summary: Current factor models assume certain pre-specified factors can price or explain asset returns with the same level of ability across time. In contrast with this conventional wisdom, we find that the factor's pricing ability exhibits notable temporal variations, and it tends to cluster in certain periods referred to as "pockets." We propose a real-time approach to effectively identify the pockets, and apply it to a comprehensive set of firm characteristics. We find episodic and distinct dynamics of return predictability for different types of characteristics, challenging the notion of continuous presence of the same factors with consistent pricing ability. By leveraging the time-varying predictive power of factors, we construct a composite predictor that achieves a value-weighted hedge return of 3.94% per month with a high *t*-statistic of 13.87. Furthermore, the composite factor pricing model, which incorporates a selection of factors with factor timing, demonstrates superior effectiveness in both explaining and predicting market anomalies. The factor also provides a comprehensive explanation for factor momentum, which is shown as a consequence of the past performance of factor returns.
-
+summary:
 
 featured: true
 
