@@ -1,5 +1,5 @@
 ---
-title: "Market Frictions and Dynamics of Cross-Sectional Stock Returns"
+title: "Market Frictions and Dynamics of the Cross-Section of Stock Returns"
 authors:
 - Peixuan Yuan
 date: "2024-01-13T00:00:00Z"
