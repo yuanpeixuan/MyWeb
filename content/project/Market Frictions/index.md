@@ -1,5 +1,5 @@
 ---
-title: "Market Frictions, Factor Predictability, and Stock Anomalies"
+title: "Market Frictions and Dynamics of Cross-Sectional Stock Returns"
 authors:
 - Peixuan Yuan
 date: "2024-01-13T00:00:00Z"
