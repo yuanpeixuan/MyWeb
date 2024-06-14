@@ -1,5 +1,5 @@
 ---
-title: "Asymmetric limits to arbitrage and Factor Predictability"
+title: "Asymmetric Limits to Arbitrage and Factor Predictability"
 authors:
 - Peixuan Yuan
 date: "2024-01-13T00:00:00Z"
