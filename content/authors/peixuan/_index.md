@@ -14,10 +14,10 @@ role: Assistant Professor of Finance
 
 # Organizations/Affiliations
 organizations:
-- name: School of Finance
-  url: "http://sf.ruc.edu.cn/"
-- name: Renmin University of China
-  url: "https://www.ruc.edu.cn/"
+- name: School of Business
+  url: "[http://sf.ruc.edu.cn/](https://bus.hkbu.edu.hk/eng/bus/main/Index)"
+- name: Hong Kong Baptist University
+  url: "[https://www.ruc.edu.cn/](https://www.hkbu.edu.hk/)"
   
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include empirical asseting pricing, derivatives pricing and machine learning.
@@ -47,7 +47,7 @@ education:
 social:
 - icon: envelope
   icon_pack: fas
-  link: "mailto:peixuan.yuan@ruc.edu.cn"
+  link: "mailto:peixuan.business@gmail.com"
 - icon: linkedin
   icon_pack: fab
   link: https://www.linkedin.com/in/peixuan-yuan/
@@ -68,4 +68,4 @@ user_groups:
 - Visitors
 ---
 
-I am currently an assistant professor of Finance at the School of Finance, Renmin University of China.
+I will join the School of Business at Hong Kong Baptist University.
