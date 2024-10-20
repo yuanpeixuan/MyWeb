@@ -1,5 +1,5 @@
 ---
-title: "Reviving Size: Biased Beliefs Behind Bad News Drift"
+title: "On the Nature of Size Effect: Biased Beliefs Behind Bad News Drift"
 authors:
 - Cheng Gao
 - Peixuan Yuan
