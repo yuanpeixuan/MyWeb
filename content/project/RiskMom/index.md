@@ -1,5 +1,5 @@
 ---
-title: "Risk-based Momentum"
+title: "Risk Momentum: A New Class of Price Patterns"
 authors:
 - Sophia Zhengzi Li
 - Peixuan Yuan
