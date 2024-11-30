@@ -18,7 +18,7 @@ publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
 publication: ""
-publication_short: "***Journal of Economic Dynamics and Control***, Accepted"
+publication_short: "***Journal of Economic Dynamics and Control***, Forthcoming"
 
 abstract: This paper shows a strong link between the granular information contained in individual stock prices and sectoral movements. We find that a predictor aggregating the price movements of a broad cross section of individual stocks predicts intraday returns of sector ETF. When we further incorporate the information from structural models, the resulting information signal has even stronger return predictability. These results support theories of granular and network origins of aggregate shocks.
 
