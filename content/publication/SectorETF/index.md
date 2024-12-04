@@ -5,7 +5,7 @@ authors:
 - Sophia Zhengzi Li
 - Peixuan Yuan
 date: "2024-11-26T00:00:00Z"
-doi: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3700466"
+doi: "https://doi.org/10.1016/j.jedc.2024.105018"
 
 # Schedule page publish date (NOT publication's date).
 publishDate: "2024-11-26T00:00:00Z"
