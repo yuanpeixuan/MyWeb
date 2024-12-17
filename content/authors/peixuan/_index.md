@@ -68,4 +68,4 @@ user_groups:
 - Visitors
 ---
 
-I will join the School of Business at Hong Kong Baptist University.
+I am an Assistant Professor of Finance at the School of Business, Hong Kong Baptist University.
