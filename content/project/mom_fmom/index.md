@@ -6,7 +6,7 @@ authors:
 - Peixuan Yuan
 - Guofu Zhou
 date: "2024-12-17T00:00:00Z"
-doi: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5057525"
+doi: ""
 
 # Schedule page publish date (NOT publication's date).
 publishDate: "2024-04-18T00:00:00Z"
@@ -33,7 +33,7 @@ featured: false
 # links:
 # - name: ""
 # url: ""
-url_pdf: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4958810"
+url_pdf: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5057525"
 #url_code: ''
 #url_dataset: ''
 #url_poster: ''
