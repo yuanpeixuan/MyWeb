@@ -15,9 +15,9 @@ role: Assistant Professor of Finance
 # Organizations/Affiliations
 organizations:
 - name: School of Business
-  url: "[http://sf.ruc.edu.cn/](https://bus.hkbu.edu.hk/eng/bus/main/Index)"
+  url: "https://bus.hkbu.edu.hk/eng/bus/main/Index"
 - name: Hong Kong Baptist University
-  url: "[https://www.ruc.edu.cn/](https://www.hkbu.edu.hk/)"
+  url: "https://www.hkbu.edu.hk/"
   
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include empirical asseting pricing, derivatives pricing and machine learning.
@@ -68,4 +68,4 @@ user_groups:
 - Visitors
 ---
 
-I am an Assistant Professor of Finance at the School of Business, Hong Kong Baptist University.
+I am an Assistant Professor of Finance at the School of Business, Hong Kong Baptist University. Before joining HKBU, I worked at Renmin University of China (2021.9-2024.7).
