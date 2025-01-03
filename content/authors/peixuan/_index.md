@@ -68,4 +68,4 @@ user_groups:
 - Visitors
 ---
 
-I am an Assistant Professor of Finance at the School of Business, Hong Kong Baptist University. Before joining HKBU, I worked at Renmin University of China (2021.9-2024.7).
+I am an Assistant Professor of Finance at the School of Business, Hong Kong Baptist University. Before joining HKBU, I worked at Renmin University of China from 2021 to 2024.
