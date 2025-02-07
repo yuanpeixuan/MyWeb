@@ -23,7 +23,7 @@ publication_short: "*Working Paper*"
 abstract:
 
 # Summary. An optional shortened abstract.
-summary: "*Revise & Resubmit, Management Science*"
+summary: "*R&R, Management Science*"
 
 
 
