@@ -1,5 +1,5 @@
 ---
-title: "Risk Momentum: A New Class of Price Patterns"
+title: "Systematic Risk Momentum: A New Class of Price Patterns"
 authors:
 - Sophia Zhengzi Li
 - Peixuan Yuan
