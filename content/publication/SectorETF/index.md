@@ -4,11 +4,11 @@ authors:
 - Hao Jiang
 - Sophia Zhengzi Li
 - Peixuan Yuan
-date: "2025-1-26T00:00:00Z"
+date: "2025-01-26T00:00:00Z"
 doi: "https://doi.org/10.1016/j.jedc.2024.105018"
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2025-1-26T00:00:00Z"
+publishDate: "2025-01-26T00:00:00Z"
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
