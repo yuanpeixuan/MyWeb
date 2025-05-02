@@ -4,11 +4,11 @@ authors:
 - Hao Jiang
 - Sophia Zhengzi Li
 - Peixuan Yuan
-date: "2024-11-26T00:00:00Z"
+date: "2025-1-26T00:00:00Z"
 doi: "https://doi.org/10.1016/j.jedc.2024.105018"
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2024-11-26T00:00:00Z"
+publishDate: "2025-1-26T00:00:00Z"
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
@@ -18,7 +18,7 @@ publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
 publication: ""
-publication_short: "***Journal of Economic Dynamics and Control***, Forthcoming"
+publication_short: "***Journal of Economic Dynamics and Control***, 171, 105018."
 
 abstract: This paper shows a strong link between the granular information contained in individual stock prices and sectoral movements. We find that a predictor aggregating the price movements of a broad cross section of individual stocks predicts intraday returns of sector ETF. When we further incorporate the information from structural models, the resulting information signal has even stronger return predictability. These results support theories of granular and network origins of aggregate shocks.
 
