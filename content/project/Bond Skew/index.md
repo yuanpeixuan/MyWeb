@@ -1,5 +1,5 @@
 ---
-title: "Information Transmission from Corporate Bonds to the Aggregate Stock Market"
+title: "The Lead-Lag Relationship Between Corporate Bonds and Stocks"
 authors:
 - Sophia Zhengzi Li
 - Peixuan Yuan
