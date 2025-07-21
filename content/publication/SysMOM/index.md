@@ -18,7 +18,7 @@ publication_types: ["2"]
 publication: ""
 publication_short: "***Management Science***, Forthcoming"
 
-abstract: We uncover a new pattern:  the stock systematic component exhibits momentum. This systematic momentum further yields a return momentum: stocks sorted by systematic component have persistent positive returns. In comparison with the extremely popular and extensively studied Jegadeesh and Titman (1993) momentum sorted by return, which is valid only monthly, our systematic return momentum holds intraday, daily, weekly, and monthly. Furthermore, our systematic momentum, the strongest ever discovered, is different from the factor momentum of Ehsani and Linnainmaa (2022) sorted by factor performance.
+abstract:
 
 # Summary. An optional shortened abstract.
 summary: 
