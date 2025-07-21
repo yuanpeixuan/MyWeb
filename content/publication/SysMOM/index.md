@@ -1,7 +1,9 @@
 ---
 title: "Systematic Momentum: A New Class of Price Patterns"
 authors:
-- Sophia Zhengzi Li, Peixuan Yuan, Guofu Zhou
+- Sophia Zhengzi Li
+- Peixuan Yuan
+- Guofu Zhou
 date: "2025-07-01T00:00:00Z"
 doi: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4062260"
 
