@@ -1,5 +1,5 @@
 ---
-title: "On the Nature of Size Effect"
+title: "Biased Expectations and Conditional Size Effect"
 authors:
 - Cheng Gao
 - Peixuan Yuan
