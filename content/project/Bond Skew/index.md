@@ -1,5 +1,5 @@
 ---
-title: "The Lead-Lag Relationship Between Corporate Bonds and Stocks"
+title: "Predictive Information in Corporate Bonds for the Equity Premium"
 authors:
 - Sophia Zhengzi Li
 - Peixuan Yuan
