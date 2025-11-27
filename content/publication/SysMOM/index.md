@@ -5,7 +5,7 @@ authors:
 - Peixuan Yuan
 - Guofu Zhou
 date: "2025-07-01T00:00:00Z"
-doi: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4062260"
+doi: "https://doi.org/10.1287/mnsc.2024.08236"
 
 # Schedule page publish date (NOT publication's date).
 publishDate: "2025-07-01T00:00:00Z"
