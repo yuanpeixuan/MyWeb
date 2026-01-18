@@ -1,14 +1,14 @@
 ---
-title: "Pockets of Factor Pricing"
+title: "Episodic Factor Pricing"
 authors:
 - Sophia Zhengzi Li
 - Peixuan Yuan
 - Guofu Zhou
-date: "2021-11-18T00:00:00Z"
+date: "2026-01-18T00:00:00Z"
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2021-11-18T00:00:00Z"
+publishDate: "2026-01-18T00:00:00Z"
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
@@ -30,7 +30,7 @@ featured: true
 # links:
 # - name: ""
 # url: ""
-url_pdf: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4661444"
+url_pdf: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6083826"
 #url_code: ''
 #url_dataset: ''
 #url_poster: ''
