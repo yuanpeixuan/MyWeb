@@ -36,7 +36,7 @@ education:
   - course: MS in Quantitative Finance
     institution: Rutgers University
     year: 2016
-  - course: BS in Remote Sensing and Information Engineering
+  - course: BS in Engineering
     institution: Wuhan University
     year: 2015
 
