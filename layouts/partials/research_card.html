@@ -1,0 +1,44 @@
+{{ $page := .page }}
+{{ $variant := .variant | default "compact" }}
+{{ $featured := ($page.Resources.ByType "image").GetMatch "*featured*" }}
+{{ $summary := "" }}
+{{ if $page.Params.summary }}
+  {{ $summary = $page.Params.summary | plainify }}
+{{ else if $page.Params.abstract }}
+  {{ $summary = $page.Params.abstract | plainify }}
+{{ end }}
+{{ $typeLabel := "Working Paper" }}
+{{ if eq $page.Type "publication" }}
+  {{ $typeLabel = "Publication" }}
+{{ end }}
+{{ $venue := "" }}
+{{ if $page.Params.publication_short }}
+  {{ $venue = $page.Params.publication_short | markdownify | plainify }}
+{{ else if $page.Params.publication }}
+  {{ $venue = $page.Params.publication | markdownify | plainify }}
+{{ end }}
+
+<article class="research-card research-card-{{ $variant }}">
+  {{ if and $featured (eq $variant "feature") }}
+  <div class="research-card-media">
+    <img src="{{ $featured.RelPermalink }}" alt="{{ $page.Title }}">
+  </div>
+  {{ end }}
+  <div class="research-card-body">
+    <div class="research-card-meta">
+      <span>{{ $typeLabel }}</span>
+      <span>{{ $page.Date.Format "2006" }}</span>
+    </div>
+    <h3><a href="{{ $page.RelPermalink }}">{{ $page.Title }}</a></h3>
+    <p class="research-card-authors">{{ partial "page_metadata_authors" $page }}</p>
+    {{ with $venue }}
+    <p class="research-card-venue">{{ . }}</p>
+    {{ end }}
+    {{ with $summary }}
+    <p class="research-card-summary">{{ . | truncate 220 }}</p>
+    {{ end }}
+    <div class="btn-links">
+      {{ partial "page_links" (dict "page" $page "is_list" 1) }}
+    </div>
+  </div>
+</article>

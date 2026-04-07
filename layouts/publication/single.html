@@ -1,0 +1,69 @@
+{{- define "main" -}}
+{{ $venue := "" }}
+{{ if .Params.publication_short }}
+  {{ $venue = .Params.publication_short | markdownify | plainify }}
+{{ else if .Params.publication }}
+  {{ $venue = .Params.publication | markdownify | plainify }}
+{{ end }}
+{{ $featured := (.Resources.ByType "image").GetMatch "*featured*" }}
+<article class="paper-shell">
+  <header class="paper-hero">
+    <p class="section-kicker">Publication</p>
+    <h1>{{ .Title }}</h1>
+    <p class="paper-authors">{{ partial "page_metadata_authors" . }}</p>
+    <div class="paper-meta-line">
+      <span>{{ .Date.Format "2006" }}</span>
+      {{ with $venue }}<span>{{ . }}</span>{{ end }}
+    </div>
+    <div class="btn-links">
+      {{ partial "page_links" (dict "page" . "is_list" 0) }}
+    </div>
+  </header>
+
+  <div class="paper-layout">
+    <aside class="paper-sidebar">
+      <div class="paper-fact">
+        <span>Type</span>
+        <strong>Journal Article</strong>
+      </div>
+      <div class="paper-fact">
+        <span>Year</span>
+        <strong>{{ .Date.Format "2006" }}</strong>
+      </div>
+      {{ with $venue }}
+      <div class="paper-fact">
+        <span>Outlet</span>
+        <strong>{{ . }}</strong>
+      </div>
+      {{ end }}
+      {{ with .Params.doi }}
+      <div class="paper-fact">
+        <span>DOI</span>
+        <a href="{{ . }}" target="_blank" rel="noopener">{{ . | replaceRE "^https?://doi.org/" "" }}</a>
+      </div>
+      {{ end }}
+    </aside>
+
+    <div class="paper-main">
+      {{ with .Params.abstract }}
+      <section class="paper-section">
+        <h2>Abstract</h2>
+        <p>{{ . }}</p>
+      </section>
+      {{ end }}
+
+      {{ if $featured }}
+      <figure class="paper-figure">
+        <img src="{{ $featured.RelPermalink }}" alt="{{ .Title }}">
+      </figure>
+      {{ end }}
+
+      {{ with .Content }}
+      <section class="paper-section article-style">
+        {{ . }}
+      </section>
+      {{ end }}
+    </div>
+  </div>
+</article>
+{{- end -}}

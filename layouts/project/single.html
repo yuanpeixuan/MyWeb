@@ -1,0 +1,61 @@
+{{- define "main" -}}
+{{ $venue := "" }}
+{{ with .Params.publication_short }}
+  {{ $venue = . | markdownify | plainify }}
+{{ end }}
+{{ $featured := (.Resources.ByType "image").GetMatch "*featured*" }}
+<article class="paper-shell">
+  <header class="paper-hero">
+    <p class="section-kicker">Working Paper</p>
+    <h1>{{ .Title }}</h1>
+    <p class="paper-authors">{{ partial "page_metadata_authors" . }}</p>
+    <div class="paper-meta-line">
+      <span>{{ .Date.Format "2006" }}</span>
+      {{ with $venue }}<span>{{ . }}</span>{{ end }}
+    </div>
+    <div class="btn-links">
+      {{ partial "page_links" (dict "page" . "is_list" 0) }}
+    </div>
+  </header>
+
+  <div class="paper-layout">
+    <aside class="paper-sidebar">
+      <div class="paper-fact">
+        <span>Status</span>
+        <strong>{{ if $venue }}{{ $venue }}{{ else }}Working Paper{{ end }}</strong>
+      </div>
+      <div class="paper-fact">
+        <span>Year</span>
+        <strong>{{ .Date.Format "2006" }}</strong>
+      </div>
+      {{ with .Params.url_pdf }}
+      <div class="paper-fact">
+        <span>Paper Link</span>
+        <a href="{{ . }}" target="_blank" rel="noopener">Open source</a>
+      </div>
+      {{ end }}
+    </aside>
+
+    <div class="paper-main">
+      {{ with .Params.abstract }}
+      <section class="paper-section">
+        <h2>Abstract</h2>
+        <p>{{ . }}</p>
+      </section>
+      {{ end }}
+
+      {{ if $featured }}
+      <figure class="paper-figure">
+        <img src="{{ $featured.RelPermalink }}" alt="{{ .Title }}">
+      </figure>
+      {{ end }}
+
+      {{ with .Content }}
+      <section class="paper-section article-style">
+        {{ . }}
+      </section>
+      {{ end }}
+    </div>
+  </div>
+</article>
+{{- end -}}

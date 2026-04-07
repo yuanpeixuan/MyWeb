@@ -1,0 +1,9 @@
+<footer class="site-footer editorial-footer">
+  <p class="footer-name">Peixuan Yuan</p>
+  <p>{{ with site.Params.email }}<a href="mailto:{{ . }}">{{ . }}</a>{{ end }}</p>
+  <p class="footer-links">
+    {{ with site.GetPage "terms.md" }}<a href="{{ .RelPermalink }}">{{ .Title }}</a>{{ end }}
+    {{ with site.GetPage "privacy.md" }}<a href="{{ .RelPermalink }}">{{ .Title }}</a>{{ end }}
+    <a href="#top" class="back-to-top">Back to top</a>
+  </p>
+</footer>

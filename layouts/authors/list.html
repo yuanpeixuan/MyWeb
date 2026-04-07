@@ -1,0 +1,62 @@
+{{- define "main" -}}
+{{ if not .File }}
+<section class="archive-shell">
+  <header class="archive-hero">
+    <h1>{{ .Title }}</h1>
+  </header>
+</section>
+{{ else }}
+{{ $publications := (where (where site.RegularPages "Type" "publication") ".Params.authors" "intersect" (slice .Title)).ByDate.Reverse }}
+{{ $projects := (where (where site.RegularPages "Type" "project") ".Params.authors" "intersect" (slice .Title)).ByDate.Reverse }}
+{{ $avatar := "" }}
+{{ with (.Resources.ByType "image").GetMatch "avatar*" }}
+  {{ $avatar = .RelPermalink }}
+{{ end }}
+<section class="author-shell">
+  <header class="author-hero">
+    {{ with $avatar }}
+    <img class="author-avatar" src="{{ . }}" alt="{{ $.Title }}">
+    {{ end }}
+    <div class="author-copy">
+      <p class="section-kicker">Author Profile</p>
+      <h1>{{ .Title }}</h1>
+      <p class="hero-role">{{ .Params.role }}</p>
+      <p>{{ .Content | plainify }}</p>
+      <div class="hero-tags">
+        {{ range .Params.interests }}
+        <span>{{ . }}</span>
+        {{ end }}
+      </div>
+    </div>
+  </header>
+
+  <section class="home-section">
+    <div class="section-heading-wrap section-heading-row">
+      <div>
+        <p class="section-kicker">Latest Publications</p>
+        <h2>Published work linked from the author archive.</h2>
+      </div>
+    </div>
+    <div class="research-ledger">
+      {{ range first 4 $publications }}
+        {{ partial "research_line.html" (dict "page" .) }}
+      {{ end }}
+    </div>
+  </section>
+
+  <section class="home-section">
+    <div class="section-heading-wrap section-heading-row">
+      <div>
+        <p class="section-kicker">Working Papers</p>
+        <h2>Recent projects in the active pipeline.</h2>
+      </div>
+    </div>
+    <div class="research-ledger">
+      {{ range first 4 $projects }}
+        {{ partial "research_line.html" (dict "page" .) }}
+      {{ end }}
+    </div>
+  </section>
+</section>
+{{ end }}
+{{- end -}}

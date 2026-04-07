@@ -1,0 +1,39 @@
+{{ $page := .page }}
+{{ $hideSummary := false }}
+{{ if isset . "hide_summary" }}
+  {{ $hideSummary = .hide_summary }}
+{{ end }}
+{{ $summary := "" }}
+{{ if $page.Params.summary }}
+  {{ $summary = $page.Params.summary | plainify }}
+{{ else if $page.Params.abstract }}
+  {{ $summary = $page.Params.abstract | plainify }}
+{{ end }}
+{{ $venue := "" }}
+{{ if $page.Params.publication_short }}
+  {{ $venue = $page.Params.publication_short | markdownify | plainify }}
+{{ else if $page.Params.publication }}
+  {{ $venue = $page.Params.publication | markdownify | plainify }}
+{{ end }}
+{{ if and (eq $page.Type "project") (in (lower $venue) "working paper") }}
+  {{ $venue = "" }}
+{{ end }}
+
+<article class="research-line{{ if $hideSummary }} research-line-compact{{ end }}">
+  <div class="research-line-main">
+    <div class="research-line-meta">
+      <span>{{ $page.Date.Format "2006" }}</span>
+    </div>
+    <h3 class="research-line-title"><a href="{{ $page.RelPermalink }}">{{ $page.Title }}</a></h3>
+    <p class="research-line-authors">{{ partial "page_metadata_authors" $page }}</p>
+    {{ with $venue }}
+    <p class="research-line-venue">{{ . }}</p>
+    {{ end }}
+    {{ if and (not $hideSummary) $summary }}
+    <p class="research-line-summary">{{ $summary | truncate 260 }}</p>
+    {{ end }}
+  </div>
+  <div class="research-line-actions btn-links">
+    {{ partial "page_links" (dict "page" $page "is_list" 1) }}
+  </div>
+</article>

@@ -1,0 +1,30 @@
+{{- define "main" -}}
+{{ if eq (lower .Type) "teaching" }}
+<section class="teaching-shell">
+  <header class="archive-hero">
+    <p class="section-kicker">Teaching</p>
+    <h1>{{ .Title }}</h1>
+    <p class="archive-intro">A teaching record across undergraduate, master's, doctoral, workshop, and recitation formats.</p>
+  </header>
+  <div class="teaching-prose article-style">
+    {{ .Content }}
+  </div>
+</section>
+{{ else }}
+<section class="archive-shell">
+  <header class="archive-hero">
+    <h1>{{ .Title }}</h1>
+    {{ with .Content }}
+    <div class="archive-intro article-style">{{ . }}</div>
+    {{ end }}
+  </header>
+  <div class="research-ledger">
+    {{ $paginator := .Paginate .Data.Pages }}
+    {{ range $paginator.Pages }}
+      {{ partial "research_line.html" (dict "page" .) }}
+    {{ end }}
+  </div>
+  {{ partial "pagination" . }}
+</section>
+{{ end }}
+{{- end -}}

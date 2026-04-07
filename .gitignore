@@ -1,5 +1,13 @@
 # IDEs
 .idea/
+.tools/
+.chrome-desktop/
+.chrome-mobile/
+preview-*.png
+preview-*.log
+preview-*.err.log
+hugo-preview.log
+hugo-preview.err.log
 
 # Hugo
 resources/

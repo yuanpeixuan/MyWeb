@@ -1,0 +1,16 @@
+{{- define "main" -}}
+{{ $items := .Pages.ByDate.Reverse }}
+<section class="archive-shell">
+  <header class="archive-hero">
+    <p class="section-kicker">Publication Archive</p>
+    <h1>{{ .Title }}</h1>
+    <p class="archive-intro">Published work presented in a simpler ledger layout with quicker scanability and lighter visual weight.</p>
+  </header>
+
+  <div class="research-ledger">
+    {{ range $items }}
+      {{ partial "research_line.html" (dict "page" .) }}
+    {{ end }}
+  </div>
+</section>
+{{- end -}}
