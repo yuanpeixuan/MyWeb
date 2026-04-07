@@ -1839,7 +1839,23 @@ footer.site-footer,
   }
 
   .about-profile {
+    grid-template-columns: 92px minmax(0, 1fr);
+    align-items: center;
     gap: 0.9rem;
+  }
+
+  .about-profile-avatar {
+    width: 92px;
+    height: 92px;
+    aspect-ratio: 1;
+    border-radius: 0.9rem;
+    justify-self: start;
+    box-shadow: 0 10px 24px rgba(2, 6, 23, 0.14);
+  }
+
+  .about-profile-copy {
+    gap: 0.18rem;
+    padding: 0;
   }
 
   .about-name {
@@ -1876,6 +1892,8 @@ footer.site-footer,
 
   .about-email {
     font-size: 0.66rem;
+    margin-top: 0.44rem;
+    padding: 0.34rem 0.58rem;
   }
 
   .hero-rail {
