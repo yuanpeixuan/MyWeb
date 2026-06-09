@@ -1,5 +1,5 @@
 ---
-title: "Systematic Reversal and Industry Momentum"
+title: "The Anatomy of Industry Momentum"
 authors:
 - Cheng Gao
 - Sophia Zhengzi Li
