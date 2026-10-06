@@ -1,7 +1,7 @@
 {{- define "main" -}}
 {{ $venue := "" }}
 {{ with .Params.publication_short }}
-  {{ $venue = . | markdownify | plainify }}
+  {{ $venue = . | markdownify | plainify | htmlUnescape }}
 {{ end }}
 {{ $featured := (.Resources.ByType "image").GetMatch "*featured*" }}
 <article class="paper-shell">

@@ -27,7 +27,7 @@
     <h3 class="research-line-title"><a href="{{ $page.RelPermalink }}">{{ $page.Title }}</a></h3>
     <p class="research-line-authors">{{ partial "page_metadata_authors" $page }}</p>
     {{ with $venue }}
-    <p class="research-line-venue">{{ . }}</p>
+    <p class="research-line-venue">{{ . | htmlUnescape }}</p>
     {{ end }}
     {{ if and (not $hideSummary) $summary }}
     <p class="research-line-summary">{{ $summary | truncate 260 }}</p>
