@@ -4,7 +4,7 @@ authors:
 - Sophia Zhengzi Li
 - Peixuan Yuan
 - Guofu Zhou
-date: "2025-07-01T00:00:00Z"
+date: "2026-08-01T00:00:00Z"
 doi: "https://doi.org/10.1287/mnsc.2024.08236"
 
 # Schedule page publish date (NOT publication's date).
@@ -17,8 +17,8 @@ publishDate: "2025-07-01T00:00:00Z"
 publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
-publication: ""
-publication_short: "***Management Science***, Forthcoming"
+publication: "Management Science, 72(8), 7254-7278 (August 2026)"
+publication_short: "***Management Science***, 72(8), 7254-7278"
 
 abstract:
 
@@ -29,9 +29,9 @@ summary:
 
 featured: false
 
-# links:
-# - name: ""
-# url: ""
+links:
+- name: "Journal Article"
+  url: "https://pubsonline.informs.org/doi/10.1287/mnsc.2024.08236"
 #url_pdf: ""
 #url_code: ''
 #url_dataset: ''
@@ -62,3 +62,4 @@ projects: []
 #   Otherwise, set `slides: ""`.
 slides: ""
 ---
+Published online November 25, 2025. Published in *Management Science*, Volume 72, Issue 8 (August 2026), pages 7254-7278.
