@@ -34,6 +34,23 @@
     {{ end }}
   </div>
   <div class="research-line-actions btn-links">
+    {{ if and $hideSummary (eq $page.Type "publication") }}
+      {{ $journalURL := $page.Params.doi | default "" }}
+      {{ if and $journalURL (not (urls.Parse $journalURL).Scheme) }}
+        {{ $journalURL = printf "https://doi.org/%s" $journalURL }}
+      {{ end }}
+      {{ if not $journalURL }}
+        {{ range $page.Params.links }}
+          {{ if eq (lower .name) "journal article" }}
+            {{ $journalURL = .url }}
+          {{ end }}
+        {{ end }}
+      {{ end }}
+      {{ with $journalURL }}
+      <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="{{ . }}" target="_blank" rel="noopener">JOURNAL ARTICLE</a>
+      {{ end }}
+    {{ else }}
     {{ partial "page_links" (dict "page" $page "is_list" 1) }}
+    {{ end }}
   </div>
 </article>
