@@ -6,7 +6,7 @@
   {{ $avatar = .RelPermalink }}
 {{ end }}
 {{ $publications := (where site.RegularPages "Type" "publication").ByDate.Reverse }}
-{{ $projects := (where site.RegularPages "Type" "project").ByDate.Reverse }}
+{{ $projects := partial "ordered_projects.html" (where site.RegularPages "Type" "project") }}
 {{ $selectedPublications := first 6 $publications }}
 {{ $selectedProjects := first 8 $projects }}
 {{ $email := site.Params.email }}

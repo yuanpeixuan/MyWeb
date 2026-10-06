@@ -1,5 +1,6 @@
 ---
 title: "The Anatomy of Industry Momentum"
+weight: 2
 authors:
 - Cheng Gao
 - Sophia Zhengzi Li
@@ -19,7 +20,7 @@ publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
 publication: ""
-publication_short: "*Working Paper*"
+publication_short: "Reject & Resubmit, Management Science"
 
 abstract: 
 

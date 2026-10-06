@@ -1,0 +1,4 @@
+{{ $dated := .ByDate.Reverse }}
+{{ $pinned := (where $dated "Weight" "gt" 0).ByWeight }}
+{{ $remaining := where $dated "Weight" "eq" 0 }}
+{{ return ($pinned | append $remaining) }}

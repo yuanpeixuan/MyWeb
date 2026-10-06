@@ -1,5 +1,5 @@
 {{- define "main" -}}
-{{ $items := .Pages.ByDate.Reverse }}
+{{ $items := partial "ordered_projects.html" .Pages }}
 <section class="archive-shell">
   <header class="archive-hero">
     <p class="section-kicker">Current Pipeline</p>

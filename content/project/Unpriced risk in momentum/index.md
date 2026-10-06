@@ -1,5 +1,6 @@
 ---
 title: "The Unpriced Risk in Momentum Strategies"
+weight: 1
 authors:
 - Cheng Gao
 - Peixuan Yuan
@@ -17,7 +18,7 @@ publication_types: ["3"]
 
 # Publication name and optional abbreviated publication name.
 publication: ""
-publication_short: "*Working Paper*"
+publication_short: "Revision Requested, Journal of Finance"
 
 abstract: 
 
